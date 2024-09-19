@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Fundamentals {
@@ -8,6 +9,10 @@ public class Fundamentals {
         } else {
             return "Odd";
         }
+    }
+
+    public boolean firstArgumentEndsWithSecond(String str1, String str2) {
+        return str1.endsWith(str2);
     }
 
     public static void main(String args[]) {
@@ -21,6 +26,8 @@ public class Fundamentals {
         System.out.println("The number is: " + result);
 
         sc.close();
+
+        System.out.println(f.firstArgumentEndsWithSecond("Hello", "lo"));
 
     }
 }
