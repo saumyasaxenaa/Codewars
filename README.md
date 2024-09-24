@@ -1,3 +1,3 @@
-# Codewars
+# Java Foundations
 
-## Practice Java with Codewars
+## Practice Java
